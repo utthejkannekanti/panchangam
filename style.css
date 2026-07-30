@@ -1,0 +1,311 @@
+/* ==========================================
+   RESET
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#eceff3;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+/* ==========================================
+   LAYOUT
+========================================== */
+
+.container{
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+/* ==========================================
+   LEFT PANEL
+========================================== */
+
+.left-panel{
+
+    width:360px;
+
+    background:#ffffff;
+
+    padding:25px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.08);
+
+}
+
+.left-panel h1{
+
+    color:#6E001A;
+
+    margin-bottom:8px;
+
+}
+
+.left-panel p{
+
+    color:#666;
+
+    margin-bottom:20px;
+
+}
+
+textarea{
+
+    width:100%;
+
+    height:500px;
+
+    resize:none;
+
+    padding:15px;
+
+    font-family:'Noto Sans Telugu',sans-serif;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    outline:none;
+
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+button{
+
+    width:100%;
+
+    margin-top:15px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    font-weight:600;
+
+}
+
+#generateBtn{
+
+    background:#6E001A;
+
+    color:#fff;
+
+}
+
+#downloadBtn{
+
+    background:#0b8d49;
+
+    color:#fff;
+
+}
+
+button:hover{
+
+    opacity:.9;
+
+}
+
+/* ==========================================
+   RIGHT PANEL
+========================================== */
+
+.right-panel{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:30px;
+
+}
+
+/* ==========================================
+   POSTER
+========================================== */
+
+#poster{
+
+    width:750px;
+
+    background:#FFFDF8;
+
+    border:4px solid #D4AF37;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.poster-header{
+
+    background:#6E001A;
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:25px;
+
+    border-bottom:4px solid #D4AF37;
+
+}
+
+.poster-header h2{
+
+    font-size:42px;
+
+    color:#FFD966;
+
+    font-family:'Noto Sans Telugu',sans-serif;
+
+}
+
+/* ==========================================
+   BODY
+========================================== */
+
+.poster-body{
+
+    padding:35px;
+
+}
+
+/* ==========================================
+   TEXT
+========================================== */
+
+#posterText{
+
+    white-space:pre-wrap;
+
+    font-family:'Noto Sans Telugu',sans-serif;
+
+    font-size:28px;
+
+    line-height:1.9;
+
+    color:#222;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.poster-footer{
+
+    margin-top:20px;
+
+    background:#6E001A;
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:25px;
+
+    border-top:4px solid #D4AF37;
+
+}
+
+.poster-footer h3{
+
+    color:#FFD966;
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+.poster-footer p{
+
+    font-size:20px;
+
+    margin-top:6px;
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:900px){
+
+.container{
+
+    flex-direction:column;
+
+}
+
+.left-panel{
+
+    width:100%;
+
+}
+
+.right-panel{
+
+    padding:15px;
+
+}
+
+#poster{
+
+    width:100%;
+
+}
+
+#posterText{
+
+    font-size:22px;
+
+}
+
+.poster-header h2{
+
+    font-size:30px;
+
+}
+
+.poster-footer h3{
+
+    font-size:24px;
+
+}
+
+}

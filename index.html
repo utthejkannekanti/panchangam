@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Panchang Poster</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ===========================
+            LEFT PANEL
+    ============================ -->
+
+    <div class="left-panel">
+
+        <h1>
+
+            🕉 Panchang Poster
+
+        </h1>
+
+        <p>
+
+            Paste today's Panchang below.
+
+        </p>
+
+        <textarea
+            id="inputText"
+            placeholder="Paste Telugu Panchang here..."></textarea>
+
+        <button id="generateBtn">
+
+            Generate Poster
+
+        </button>
+
+        <button id="downloadBtn">
+
+            Download PNG
+
+        </button>
+
+    </div>
+
+    <!-- ===========================
+            RIGHT PANEL
+    ============================ -->
+
+    <div class="right-panel">
+
+        <div id="poster">
+
+            <!-- Header -->
+
+            <div class="poster-header">
+
+                <h2>
+
+                    🕉 నేటి పంచాంగము 🕉
+
+                </h2>
+
+            </div>
+
+            <!-- Body -->
+
+            <div class="poster-body">
+
+<pre id="posterText">
+
+ఈరోజు పంచాంగము ఇక్కడ కనిపిస్తుంది...
+
+</pre>
+
+            </div>
+
+            <!-- Footer -->
+
+            <div class="poster-footer">
+
+                <h3>
+
+                    Sai Teja Jewellery Works
+
+                </h3>
+
+                <p>
+
+                    Custom Gold Jewellery Manufacturer
+
+                </p>
+
+                <p>
+
+                    Kamalanagar,
+                    Vanasthalipuram,
+                    Hyderabad - 500070
+
+                </p>
+
+                <p>
+
+                    <!-- 📞 9866121314, 9553121314 -->
+                     📞 9866121314 | 9553121314 
+                     <i class="fa-brands fa-instagram"></i>  @saitejajewellery
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- html2canvas -->
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
